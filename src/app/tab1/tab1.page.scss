@@ -1,4 +1,30 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+
+div#map {
+     height:40vh;
 }
+
+.adp, .adp table
+{
+    background: white !important;
+}
+.mydirection{
+    background: white !important;
+}
+
+        .scroll {
+            height: 100%;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        ion-card {
+            max-height: 200px;
+            overflow: scroll;
+            position: absolute;
+            z-index: 1;
+        }
+
+   
